@@ -1,0 +1,99 @@
+.container{
+    max-width: 1100px;
+    overflow: auto;
+    margin: auto;
+    padding: 0px,15px;
+}
+#nav-bar h1{
+    float: none;
+    text-align: center;
+}
+ul, #nav-bar ul li{
+    float: none;
+    text-align: center;
+}
+#nav-bar ul li a{ 
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+.btn{
+    display: inline-block;
+    font-size: 10px;
+    background: #333;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;   
+}
+#showcase .showcase-content h1{
+    font-size: 45px;
+    text-align: center;
+}
+#showcase .showcase-content p{
+    font-size: 17px;
+}
+.info{
+    height: 300px;
+}
+.info .info-image{
+    display: none;
+
+}
+.info .info-content{
+    float: none;
+    width: 100%;
+}
+.box{
+    float: none;
+    width: 100%;
+    padding: 30px;
+}
+
+/* about */
+
+
+#about{
+    height: 600px;
+}
+.about-content{
+    color: rgb(85, 30, 7);
+    padding: 120px;
+}
+.about-content h1{
+    font-size: 65px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.hotel-info .hotel-info-image img{
+    display: none;
+}
+.hotel-info .hotel-info-content{
+    float: none;
+    width: 100%;
+}
+.hotel-info-content p{
+    font-size: 16px;
+    font-family: 'Courgette', cursive;
+}
+.hotel-info-content h1{
+    font-size: 32px;
+    text-align: center;
+}
+.testimonial{
+    padding-top: 30px;
+}
+.testimonial .testimonials{
+    padding: 30px;
+}
+.testimonial .container #testimonial-header{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.testimonial .container .testimonials p{
+    font-style: italic;
+    font-size: 15px;
+}
+.box-a p{
+    display: hidden;
+    color: white;
+}
